@@ -9,7 +9,7 @@
 
 This EFI is based on the JuicerV3 EFI: https://github.com/JuicerV3/Hackintosh_OpenCore_Lenovo-ideapad-330s-15ikb
 
-Not use `AirportItlwm` and `IntelBluetoothFirmware` kext. Upgrading to Broadcom wireless card is recommended for better stability and features for current and future macOS versions. If you have intel wifi, I used this video for Intel Dual Band Wireless-AC 7265 AC Internal: https://www.youtube.com/watch?v=0lHxrMqT0WA&t=361s.
+Don't use `AirportItlwm` and `IntelBluetoothFirmware` kext. Upgrading to Broadcom wireless card is recommended for better stability and features for current and future macOS versions. If you have intel wifi, I used this video for Intel Dual Band Wireless-AC 7265 AC Internal: https://www.youtube.com/watch?v=0lHxrMqT0WA&t=361s.
 
 ```
 * I am not responsible for any damage done to your device. Use at your own risk.
@@ -46,6 +46,7 @@ Use CorpNewt's [GENSMBIOS](https://github.com/corpnewt/GenSMBIOS) to generate pl
 
 ### What not works
 * Airdrop & Continuity Features (Need native wificard)
+  
 *The Windows boot entry from the OpenCore bootloader didn't work, so I used the F12 key to change the operating system.
 
 ## Intel Wlan/Bluetooth Video Tutorial for Configuration
